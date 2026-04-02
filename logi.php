@@ -64,6 +64,60 @@
             echo $hobby[$a];
             $a++;
         }
+        $a = 0;
+        while ($a < count($hobby)) {
+            echo "<br>is my hobby ";
+            echo $hobby[$a];
+            $a++;
+        }
+        echo $nl;
+
+        $a = 0;
+        do {
+            echo "<br>This is a do while loop and the value of a is: $a ";
+           $a++;     
+            } while ($a <= 10);
+            echo $nl;
+
+        for ($a=0; $a < 10; $a++) { 
+            echo "$nl This is a for loop and the value of a is: $a"; 
+            
+        }    
+        echo $nl;
+        foreach ($hobby as $values){
+            echo "$nl(foreach loop) My hobby is $values";
+        }
+// Functions is PHP
+
+        function sayhello(){
+            echo "<br> Hello, Welcome to my Website! ";
+        }
+
+       sayhello();
+        sayhello();
+        sayhello();
+        sayhello();
+        sayhello();
+        sayhello();
+
+        function TaxCalculation($price, $tax){
+            $taxamount = $price * $tax;
+            $totalprice = $price + $taxamount;
+
+            return $totalprice;
+        }
+
+        $mytax = TaxCalculation(55, 0.5);
+
+        echo " $nl The Tax is:  $mytax";
+
+
+        function greet($name){
+            echo "<br>Hello, Welcome $name";
+        }
+
+        greet("Uday");
+        
 
         ?>
 
