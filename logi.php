@@ -22,7 +22,7 @@
 
 // if-else statement in PHP
 
-        $age = 17;
+        $age = 100;
         if($age == 18 and $age > 18) {
             echo "You r an adult....";
         } elseif ($age >= 100 ) {
@@ -117,6 +117,12 @@
         }
 
         greet("Uday");
+// sumad is funtion's use is to calculate two numbers through addition. 
+        function sumad($a, $b){
+            $c = $a+$b;
+            $ans = $c;
+            return $ans;
+        }
         
 
         ?>
