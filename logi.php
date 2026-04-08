@@ -123,6 +123,27 @@
             $ans = $c;
             return $ans;
         }
+// sumsub is funtion's use is to calculate two numbers through substraction.
+         function sumsub($a, $b){
+            $c = $a-$b;
+            $ans = $c;
+            return $ans;
+        }
+// summul is funtion's use is to calculate two numbers through multiplication.
+        function summul($a, $b){
+            $c = $a*$b;
+            $ans = $c;
+            return $ans;
+        }
+// sumdiv is funtion's use is to calculate two numbers through division.
+        function sumdiv($a, $b){
+            $c = $a/$b;
+            $ans = $c;
+            return $ans;
+        }
+
+        $Cal = sumsub(555,5656);
+        echo "$nl The result is $Cal";
         
 
         ?>
